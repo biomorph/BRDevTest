@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JSONFetcher.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) IBOutlet UIWindow *window;
+@property (strong, nonatomic) IBOutlet UITabBarController *tabBarController;
+
 
 @end
